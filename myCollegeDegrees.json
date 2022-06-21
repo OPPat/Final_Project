@@ -1,0 +1,25 @@
+{
+  "degrees": [
+    {
+      "name": "Bachelor of Art",
+      "school": "Cosendai Adventist University",
+      "program": "Theology",
+      "type": "BA",
+      "year conferred": "2008"
+    },
+    {
+      "name": "Masters of Science",
+      "school": "Pace University",
+      "program": "Education",
+      "type": "MS",
+      "year conferred": "2022"
+    },
+    {
+      "name": "Masters of Science",
+      "school": "Boston University",
+      "program": "Software Development",
+      "type": "MS",
+      "year conferred": "2023"
+    }
+  ]
+}

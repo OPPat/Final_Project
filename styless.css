@@ -1,0 +1,49 @@
+form {
+  font: 1em sans-serif;
+  width: 300 px;
+  border: dodgerblue;
+  background-color: orange;
+}
+
+#fNameError {
+  color: red;
+}
+#mailError {
+  color: red;
+}
+#lNameError {
+  color: red;
+}
+#facilError {
+  color: red;
+}
+h1 {
+  color: blue;
+  border: #fdd;
+  margin: auto;
+}
+#submit {
+  display: block;
+  color: white;
+  background-color: blue;
+  width: auto;
+}
+fieldset {
+  text-align: left;
+  width: 300px;
+}
+p > label {
+  display: block;
+}
+/*using pseudoclasses to style based on validation*/
+input {
+  border: 2px solid currentcolor;
+  width: auto;
+}
+input:invalid {
+  border: 2px solid red;
+  background-color: #fdd;
+}
+input:invalid:focus {
+  background-image: linear-gradient(pink, lightgreen);
+}

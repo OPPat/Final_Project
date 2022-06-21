@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>My Academic Degrees!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/myScript.js" defer></script>
+  </head>
+  <body class="pad">
+    <!-- this is the start of content -->
+    
+    <section>
+
+        <nav>
+            <a href="index.html">Home</a>|
+            <a href="About_me.html">About_me</a> |        
+            <a href="Education.html">My Education</a> |
+            <a href="Hobbies.html">My Hobbies</a> |
+            <a href="Work.html">Work</a>|
+            <a href="Beliefs.html">My Beliefs</a>|
+            <a href="myResume.html">Resume</a>
+            <a href="degrees.html">My Degrees</a>
+            <a href="contactMe.html">Contact Me</a>
+            <a href="Readme.md">Readme</a>
+        </nav>
+    </section>
+      
+    <h1 id="app">
+      {{about}}
+    </h1>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <script>
+            let app = new Vue({
+                el: '#app',
+                data: {
+                    about: 'My academic degrees to date:',
+                }
+            })
+         </script>
+    
+    
+    <section>
+
+        <nav>
+            <a href="index.html">Home</a>|
+            <a href="About_me.html">About_me</a> |        
+            <a href="Education.html">My Education</a> |
+            <a href="Hobbies.html">My Hobbies</a> |
+            <a href="Work.html">Work</a>|
+            <a href="Beliefs.html">My Beliefs</a>|
+            <a href="myResume.html">Resume</a>
+            <a href="degrees.html">My Degrees</a>
+            <a href="contactMe.html">Contact Me</a>
+            <a href="Readme.md">Readme</a>
+        </nav>
+    </section>
+    
+  </body>
+</html>

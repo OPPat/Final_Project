@@ -1,0 +1,79 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: dodgerblue;
+}
+#app {
+  border: 10px;
+  text-align: center;
+  border-style: double;
+  background-color: green;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: double;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+/* breakpoints fo Very small devices */
+@media only screen and (max-width: 600px) {
+  .pad {
+    background-color: coral;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+  .pad {
+    background-color: green;
+  }
+}
+
+/* Medium devices  */
+@media only screen and (min-width: 768px) {
+  .pad {
+    background-color: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .pad {
+    background-color: orange;
+  }
+}
+
+/* very large devices  */
+@media only screen and (min-width: 1200px) {
+  .pad {
+    background-color: pink;
+  }
+}

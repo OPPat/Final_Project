@@ -1,0 +1,173 @@
+h1 {
+  background-color: green;
+  text-align: center;
+  border: 1rem;
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  width: fit-content;
+}
+h3 {
+  text-align: center;
+  width: fit-content;
+}
+aside {
+  background-color: beige;
+  background: scroll;
+  width: auto;
+}
+header {
+  margin-top: 0%;
+  margin-left: 0;
+  border-top: tomato;
+  width: auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+@keyframes animate {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+/* The element to apply the animation to */
+main {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: animate;
+  animation-duration: 2s;
+}
+figure {
+  align-self: start;
+  visibility: visible;
+}
+
+main {
+  height: auto;
+  width: auto;
+  border: 1px solid black;
+  background-color: red;
+  position: absolute;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: 0em;
+  transition-delay: 1s;
+  border-color: aliceblue;
+}
+p {
+  font: 1em sans-serif;
+  width: 100%;
+  text-align: justify;
+}
+img {
+  display: block;
+  position: sticky;
+}
+#center {
+  text-align: center;
+  position: relative;
+  float: left;
+}
+#branch {
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+footer {
+  width: auto;
+  float: right;
+}
+
+.grid {
+  grid-row: auto;
+  grid-column: auto;
+}
+
+#root {
+  height: 30px;
+  width: 150px;
+  border: 1px solid black;
+  background-color: red;
+  position: absolute;
+}
+nav {
+  position: absolute;
+  appearance: inherit;
+}
+.navig {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navig a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navig a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navig a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.pad {
+  padding: 20px;
+  color: white;
+}
+/* breakpoints fo Very small devices */
+@media only screen and (max-width: 600px) {
+  .pad {
+    background-color: coral;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 600px) {
+  .pad {
+    background-color: green;
+  }
+}
+
+/* Medium devices  */
+@media only screen and (min-width: 768px) {
+  .pad {
+    background-color: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .pad {
+    background-color: orange;
+  }
+}
+
+/* very large devices  */
+@media only screen and (min-width: 1200px) {
+  .pad {
+    background-color: pink;
+  }
+}

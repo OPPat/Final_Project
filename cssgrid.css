@@ -1,0 +1,66 @@
+h1{
+    background-color: dodgerblue;
+    font-size:xx-large;
+    text-align: center;
+}
+h2{
+    border: 10px;
+    padding-right: 5px;
+    text-decoration: double;
+}
+body {
+    background-image: url("https://cdn.glitch.global/be52408f-d586-4c30-860b-6353bea74748/profile_pic.png?v=1655666627092");
+    background-color: #cccccc;
+   }
+   #resume{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5px;
+    text-align: left;
+    
+    border: double;
+    
+   
+
+   }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column:auto;
+    grid-row:auto;
+    border: 10px;
+    
+  }
+  .two {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .three {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .four {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .five {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .six {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .seven {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .eight {
+    grid-column: auto;
+    grid-row: auto;
+  }
