@@ -39,6 +39,4 @@ Here are the new implementation for this week's assignment:
  
 5. Media queries were utilised to account for breakpoints for 5 distinct differences in how the pages are presented based on the screen size  even though 3 was required.
 
-6. I tried to have my navigation bar to be sticky as the facilitator advised, but didn't succeed even after using the
-   "position" property with a value of "sticky". This, I thought would have ensured that the navigation links would still
-   be visible even as the pages are scrolled down or up. At last, as a solution, I added a naviation bar in two places, to make it available both at the top and at the bottom, but I'd appreciate it if you could show me how to use css declaration to have the navigation always visible regardless of page movement.
+
