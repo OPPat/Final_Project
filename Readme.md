@@ -39,4 +39,10 @@ Here are the new implementation for this week's assignment:
  
 5. Media queries were utilised to account for breakpoints for 5 distinct differences in how the pages are presented based on the screen size  even though 3 was required.
 
-
+6.CSS grid is used
+  
+  
+7. Javascript and Json
+  
+  
+8. Vue.js is included
